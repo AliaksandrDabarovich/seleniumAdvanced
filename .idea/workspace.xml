@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea609194-7e94-4c6c-9143-98e58d49a0b7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bE421p9AceE8ezTdpgd1ukX2qY" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.epam.pageobject.page" />
+      <recent name="com.epam.pageobject.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\pageobject\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/git/pageobject/src/main/resources/testng.xml">
+    <configuration name="BodyFieldDraftTest.verifyBodyFieldInDraft" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.pageobject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.BodyFieldDraftTest" />
+      <option name="METHOD_NAME" value="verifyBodyFieldInDraft" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/git/pageobject/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageobject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.inputCredentialsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.pageobject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.LoginTest" />
+      <option name="METHOD_NAME" value="inputCredentialsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.inputCredentialsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.pageobject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.LoginTest" />
+      <option name="METHOD_NAME" value="inputCredentialsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.pageobject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.LoginTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.pageobject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.LoginTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendEmailTest.deliverEmail (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.pageobject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.SendEmailTest" />
+      <option name="METHOD_NAME" value="deliverEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/git/pageobject/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.LoginTest.login (1)" />
+        <item itemvalue="TestNG.LoginTest.login" />
+        <item itemvalue="TestNG.BodyFieldDraftTest.verifyBodyFieldInDraft" />
+        <item itemvalue="TestNG.SendEmailTest.deliverEmail (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea609194-7e94-4c6c-9143-98e58d49a0b7" name="Default Changelist" comment="" />
+      <created>1588183707296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588183707296</updated>
+    </task>
+    <servers />
+  </component>
+</project>
