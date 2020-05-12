@@ -4,8 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-
-
 public class EmailPage extends AbstractPage {
 
 
@@ -13,7 +11,7 @@ public class EmailPage extends AbstractPage {
     private WebElement sentButton;
     @FindBy(xpath = "//*[@class='compose-button compose-button_white compose-button_short js-shortcut']")
     private WebElement composeButton;
-    @FindBy (xpath = "//a[@href='/drafts/']")
+    @FindBy(xpath = "//a[@href='/drafts/']")
     private WebElement draftsButton;
 
     public EmailPage(WebDriver driver) {
@@ -30,7 +28,7 @@ public class EmailPage extends AbstractPage {
     }
 
     public DraftsPage openDraftsPageFromEmailPage() {
-        draftsButton.click();
+        moveClick(driver, draftsButton);
         return new DraftsPage(driver);
     }
 }

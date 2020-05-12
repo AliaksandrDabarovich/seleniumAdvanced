@@ -1,14 +1,13 @@
 package com.epam.pageobject.test;
 
 import com.epam.pageobject.page.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SendDraftTest extends BaseTest {
     @Test
     public void sendDraft(){
-        EmailLoginPage emailLoginPage = new EmailLoginPage((ChromeDriver) driver);
+        EmailLoginPage emailLoginPage = new EmailLoginPage(driver);
         EmailPage emailPage = emailLoginPage.inputCredentials();
         ComposeEmailPage composeEmailPage = emailPage.composeEmailFromEmailPage();
         EmailPage emailPageAfterCompose = composeEmailPage.composeEmail();

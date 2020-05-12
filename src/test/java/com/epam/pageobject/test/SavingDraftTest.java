@@ -4,7 +4,6 @@ import com.epam.pageobject.page.ComposeEmailPage;
 import com.epam.pageobject.page.DraftsPage;
 import com.epam.pageobject.page.EmailLoginPage;
 import com.epam.pageobject.page.EmailPage;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,7 +12,7 @@ public class SavingDraftTest extends BaseTest {
     @Test
 
     public void saveToDraft () {
-        EmailLoginPage emailLoginPage = new EmailLoginPage((ChromeDriver) driver);
+        EmailLoginPage emailLoginPage = new EmailLoginPage(driver);
         EmailPage emailPage = emailLoginPage.inputCredentials();
         ComposeEmailPage composeEmailPage = emailPage.composeEmailFromEmailPage();
         EmailPage emailPageAfterCompose = composeEmailPage.composeEmail();

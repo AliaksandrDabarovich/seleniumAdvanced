@@ -26,12 +26,12 @@ public class DraftsPage extends AbstractPage {
 
     public WebElement checkEmailInDrafts() {
 
-        waitElement(By.xpath("//span[@class='ll-sj__normal' and text()='WebDriver']"));
-        return waitForVisibility(draftName);
+        return waitElement(By.xpath("//span[@class='ll-sj__normal' and text()='WebDriver']"));
 
     }
 
     public DraftEmailPage openDraftEmailPage() {
+        waitTillElementClickable(draftLink);
         waitForVisibility(draftLink).click();
         return new DraftEmailPage(driver);
     }
@@ -42,6 +42,7 @@ public class DraftsPage extends AbstractPage {
     }
 
     public SendEmailPage openSendEmailPage() {
+        waitTillElementClickable(sentFolderButton);
         waitForVisibility(sentFolderButton).click();
         return new SendEmailPage(driver);
     }

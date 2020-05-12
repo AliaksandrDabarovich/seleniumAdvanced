@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 
-
-
-public class EmailLoginPage extends AbstractPage{
+public class EmailLoginPage extends AbstractPage {
 
     @FindBy(xpath = "//*[@id='mailbox:login']")
     private WebElement inputEmailField;
@@ -27,11 +25,13 @@ public class EmailLoginPage extends AbstractPage{
     public EmailPage inputCredentials() {
 
         waitForVisibility(inputEmailField);
-        inputEmailField.sendKeys("aliaksandr.yarkiy@mail.ru");
+        highlightElement(driver, inputEmailField);
+        performActionSendkeys(driver, inputEmailField, EMAIL);
         inputPasswordButton.click();
         waitForVisibility(inputPasswordField);
-        inputPasswordField.sendKeys("obuchenie2015");
-        inputEnterButton.click();
+        highlightElement(driver, inputPasswordField);
+        inputPasswordField.sendKeys(PASSWORD);
+        clickJavascript(driver, inputEnterButton);
         return new EmailPage(driver);
     }
 

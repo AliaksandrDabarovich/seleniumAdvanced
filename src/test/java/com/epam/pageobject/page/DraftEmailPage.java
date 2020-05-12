@@ -5,36 +5,38 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class DraftEmailPage extends AbstractPage {
-    @FindBy (xpath = "//div[contains (@class, 'container--3B3Lm status_base--wsRcM')]//span[contains (@class,'text')]")
+    @FindBy(xpath = "//div[contains (@class, 'container--3B3Lm status_base--wsRcM')]//span[contains (@class,'text')]")
     WebElement toFieldDraft;
 
-    @FindBy (xpath = "//div[@class='container--3QXHv']//input[@class='container--H9L5q size_s--3_M-_']")
+    @FindBy(xpath = "//div[@class='container--3QXHv']//input[@class='container--H9L5q size_s--3_M-_']")
     WebElement subjectFieldDraft;
 
-    @FindBy (xpath = "//div[contains (@class,'class')]/div[1]")
+    @FindBy(xpath = "//div[contains (@class,'class')]/div[1]")
     WebElement bodyFieldDraft;
 
-    @FindBy (xpath = "//span[text()='Отправить']")
+    @FindBy(xpath = "//span[text()='Отправить']")
     WebElement sendButton;
 
 
-    public DraftEmailPage (WebDriver driver){
+    public DraftEmailPage(WebDriver driver) {
         super(driver);
     }
 
-    public WebElement checkToField (){
+    public WebElement checkToField() {
         return waitForVisibility(toFieldDraft);
     }
-    public WebElement checkSubjectField (){
+
+    public WebElement checkSubjectField() {
 
         return waitForVisibility(subjectFieldDraft);
     }
-    public WebElement checkBodyField (){
+
+    public WebElement checkBodyField() {
 
         return waitForVisibility(bodyFieldDraft);
     }
 
-    public AdvertisingPage sendDraft(){
+    public AdvertisingPage sendDraft() {
         waitForVisibility(sendButton).click();
         return new AdvertisingPage(driver);
     }
