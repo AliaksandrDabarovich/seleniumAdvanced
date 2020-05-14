@@ -1,6 +1,5 @@
 package com.epam.pageobject.page;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,7 +9,7 @@ public class DraftsPage extends AbstractPage {
     WebElement draftName;
     @FindBy(xpath = "//div[@class='llc__item llc__item_correspondent']//span[@title='aliaksandr.yarkiy@mail.ru']")
     WebElement draftLink;
-    @FindBy(xpath = "//div[@title='Черновики']")
+    @FindBy(xpath = "//div[text()='Черновики']")
     WebElement draftPageLoading;
     @FindBy(xpath = "//span[@class='octopus__title' and text()='У вас нет незаконченных']")
     WebElement draftNameAbsence;
@@ -26,7 +25,7 @@ public class DraftsPage extends AbstractPage {
 
     public WebElement checkEmailInDrafts() {
 
-        return waitElement(By.xpath("//span[@class='ll-sj__normal' and text()='WebDriver']"));
+        return waitElement(draftName);
 
     }
 

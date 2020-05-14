@@ -14,5 +14,4 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(emailPage.getSentButton() != null, "User is not logged in");
     }
 
-
 }

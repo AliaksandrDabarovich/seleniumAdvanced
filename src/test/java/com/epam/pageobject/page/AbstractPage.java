@@ -1,6 +1,5 @@
 package com.epam.pageobject.page;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -40,9 +39,13 @@ public abstract class AbstractPage {
 
     }
 
-    protected WebElement waitElement(By by) {
+
+    protected WebElement waitElement(WebElement webElement) {
         return new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS)
-                .until(ExpectedConditions.elementToBeClickable(by));
+                .until(ExpectedConditions.elementToBeClickable(webElement));
+
+//        return new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS)
+//                .until(ExpectedConditions.elementToBeClickable(by));
     }
 
     protected WebElement waitTillElementClickable(WebElement element) {

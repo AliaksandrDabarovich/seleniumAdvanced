@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class SubjectFieldDraftTest extends BaseTest{
 
     @Test
-    public void verifySubjectFieldInDraft(){
+    public void verifySubjectFieldInDraft() {
         EmailLoginPage emailLoginPage = new EmailLoginPage(driver);
         EmailPage emailPage = emailLoginPage.inputCredentials();
         ComposeEmailPage composeEmailPage = emailPage.composeEmailFromEmailPage();

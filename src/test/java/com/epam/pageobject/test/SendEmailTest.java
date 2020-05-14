@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class SendEmailTest extends BaseTest {
     @Test
-    public void deliverEmail (){
+    public void deliverEmail () {
         EmailLoginPage emailLoginPage = new EmailLoginPage(driver);
         EmailPage emailPage = emailLoginPage.inputCredentials();
         ComposeEmailPage composeEmailPage = emailPage.composeEmailFromEmailPage();

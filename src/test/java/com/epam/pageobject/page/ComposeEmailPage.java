@@ -1,5 +1,6 @@
 package com.epam.pageobject.page;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,7 +11,7 @@ public class ComposeEmailPage extends AbstractPage {
     WebElement toField;
     @FindBy(xpath = "//div[@class='container--3QXHv']//input[@class='container--H9L5q size_s--3_M-_']")
     WebElement subjectField;
-    @FindBy(xpath = "//div[contains (@class, 'cke_editable cke_editable_inline cke_contents_true cke_show_borders')]/div[1]")
+    @FindBy(xpath = "//div[contains (@class, 'cke_editable')]/div[1]")
     WebElement bodyField;
     @FindBy(xpath = "//span[@class='button2 button2_base button2_hover-support js-shortcut']")
     WebElement saveButton;
@@ -22,10 +23,13 @@ public class ComposeEmailPage extends AbstractPage {
     }
 
     public EmailPage composeEmail() {
-        waitForVisibility(toField);
+
+        waitElement(toField);
         toField.sendKeys(EMAIL);
+        waitElement(subjectField);
         subjectField.sendKeys(SUBJECT);
-        bodyField.sendKeys(BODY);
+        waitElement(bodyField);
+        performActionSendkeys(driver, bodyField, BODY);
         saveButton.click();
         closeButton.click();
         return new EmailPage(driver);

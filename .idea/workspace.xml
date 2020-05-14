@@ -4,11 +4,8 @@
     <list default="true" id="ea609194-7e94-4c6c-9143-98e58d49a0b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/AdvertisingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/AdvertisingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/ComposeEmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/ComposeEmailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/DraftEmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/DraftEmailPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/DraftsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/DraftsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/EmailLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/EmailLoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/EmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/page/EmailPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/BodyFieldDraftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/BodyFieldDraftTest.java" afterDir="false" />
@@ -17,20 +14,13 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/SendDraftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/SendDraftTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/SendEmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/SendEmailTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/SubjectFieldDraftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/SubjectFieldDraftTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/ToFieldInDraftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pageobject/test/ToFieldInDraftTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/AbstractPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/AbstractPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/ComposeEmailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/ComposeEmailPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/DraftsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/DraftsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/EmailLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/EmailLoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/EmailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/page/EmailPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/BodyFieldDraftTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/BodyFieldDraftTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/SavingDraftTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/SavingDraftTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/SendDraftTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/SendDraftTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/SendEmailTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/SendEmailTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/SubjectFieldDraftTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/SubjectFieldDraftTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/ToFieldInDraftTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/pageobject/test/ToFieldInDraftTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +82,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendEmailTest.deliverEmail (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SendDraftTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.pageobject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.SendDraftTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendDraftTest.sendDraft" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.pageobject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.SendDraftTest" />
+      <option name="METHOD_NAME" value="sendDraft" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendEmailTest.deliverEmail (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="pageobject" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendEmailTest.deliverEmail (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ToFieldInDraftTest.verifyToFieldInDraft" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="pageobject" />
       <extension name="coverage">
         <pattern>
@@ -119,44 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.SendEmailTest" />
-      <option name="METHOD_NAME" value="deliverEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SendEmailTest.deliverEmail (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="pageobject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.pageobject.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.SendEmailTest" />
-      <option name="METHOD_NAME" value="deliverEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SendEmailTest.deliverEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="pageobject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.pageobject.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.pageobject.test" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.SendEmailTest" />
-      <option name="METHOD_NAME" value="deliverEmail" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pageobject.test.ToFieldInDraftTest" />
+      <option name="METHOD_NAME" value="verifyToFieldInDraft" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -167,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/git/pageobject/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.SendEmailTest.deliverEmail (4)" />
-        <item itemvalue="TestNG.SendEmailTest.deliverEmail (3)" />
-        <item itemvalue="TestNG.SendEmailTest.deliverEmail (2)" />
-        <item itemvalue="TestNG.SendEmailTest.deliverEmail" />
+        <item itemvalue="TestNG.ToFieldInDraftTest.verifyToFieldInDraft" />
+        <item itemvalue="TestNG.SendDraftTest" />
+        <item itemvalue="TestNG.SendDraftTest.sendDraft" />
+        <item itemvalue="TestNG.SendEmailTest.deliverEmail (1)" />
       </list>
     </recent_temporary>
   </component>

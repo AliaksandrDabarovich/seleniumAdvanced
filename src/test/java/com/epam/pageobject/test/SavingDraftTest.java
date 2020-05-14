@@ -11,7 +11,7 @@ public class SavingDraftTest extends BaseTest {
 
     @Test
 
-    public void saveToDraft () {
+    public void saveToDraft (){
         EmailLoginPage emailLoginPage = new EmailLoginPage(driver);
         EmailPage emailPage = emailLoginPage.inputCredentials();
         ComposeEmailPage composeEmailPage = emailPage.composeEmailFromEmailPage();

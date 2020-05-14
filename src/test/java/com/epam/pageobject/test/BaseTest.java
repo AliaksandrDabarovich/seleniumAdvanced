@@ -22,9 +22,9 @@ public class BaseTest {
     @BeforeClass
     public void setUp() {
 
-        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
         capabilities.setPlatform(Platform.WINDOWS);
-        capabilities.setBrowserName("chrome");
+        capabilities.setBrowserName("firefox");
         try {
             driver = new RemoteWebDriver(new URL(hubUrl), capabilities);
         } catch (MalformedURLException e) {
